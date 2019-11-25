@@ -12,16 +12,21 @@ zsh_append_zshrc: ""
 oh_my_zsh_custom_plugins:
   - name: zsh-syntax-highlighting
     repo: "git://github.com/zsh-users/zsh-syntax-highlighting.git"
+    version: d766243f7a2a920b01a405d8fd0b12cb18f6d5bc
   - name: zsh-autosuggestions
     repo: "git://github.com/zsh-users/zsh-autosuggestions.git"
+    version: 146020d9b28c70a5edd93d19bbef9c5cb05d4b62
   - name: zsh-completions
     repo: "git://github.com/zsh-users/zsh-completions.git"
+    version: '0.31.0'
 
 oh_my_zsh_custom_themes:
   - name: powerlevel9k
     repo: "https://github.com/bhilburn/powerlevel9k.git"
+    version: d6a336358a1629d262d95e2e147885ca30693673
   - name: powerlevel10k
     repo: "https://github.com/romkatv/powerlevel10k.git"
+    version: 3dafd79c41f8601b055e607ffefbfe3250c26040
 
 oh_my_zsh_plugins:
   - git

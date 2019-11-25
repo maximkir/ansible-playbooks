@@ -45,6 +45,7 @@
   git:
     repo: "{{ item.repo }}"
     dest: "{{ oh_my_zsh_home }}/custom/plugins/{{ item.name }}"
+    version: "{{ item.version }}"
     accept_hostkey: yes
     update: yes
   with_items: "{{ oh_my_zsh_custom_plugins }}"
@@ -54,6 +55,7 @@
   git:
     repo: "{{ item.repo }}"
     dest: "{{ oh_my_zsh_home }}/custom/themes/{{ item.name }}"
+    version: "{{ item.version }}"
     accept_hostkey: yes
     update: yes
   with_items: "{{ oh_my_zsh_custom_themes }}"
